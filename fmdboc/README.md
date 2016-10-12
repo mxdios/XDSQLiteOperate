@@ -19,7 +19,8 @@ _db = [FMDatabase databaseWithPath:dbPath];
 开启数据库，任何数据库操作，都需要先开启数据库。
 
 ```Objective-c
-[_db open]; ```
+[_db open];
+```
 
 ## 创建表
 
@@ -32,7 +33,8 @@ BOOL found =  [_db executeUpdate:@"create table if not exists userTable(id integ
 关闭数据库
 
 ```Objective-c
-[_db close]; ```
+[_db close];
+```
 
 ## 插入数据
 
