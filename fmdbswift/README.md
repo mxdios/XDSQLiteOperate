@@ -12,8 +12,6 @@ command + n 选择创建 `Header File`。
 
 ![img](https://raw.githubusercontent.com/mxdios/XDSQLiteOperate/master/fmdbswift/image/QQ20161012-0.png)
 
-https://raw.githubusercontent.com/mxdios/XDSQLiteOperate/master/fmdbswift/image/QQ20161012-0.png
-
 点击`Next`，输入桥接文件名字，勾选`Targets`里面第一个复选框，点击`Create`。
 
 ![img](https://raw.githubusercontent.com/mxdios/XDSQLiteOperate/master/fmdbswift/image/QQ20161012-1.png)

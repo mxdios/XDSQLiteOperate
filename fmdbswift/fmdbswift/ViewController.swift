@@ -26,6 +26,16 @@ class ViewController: UIViewController {
         } else {
             print("数据库创建失败")
         }
+        
+        
+        if db!.open(){
+            do{
+                try db!.executeUpdate("CREATE TABLE IF NOT EXISTS user (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,name TEXT, phone TEXT , date DATETIME , headImage DATA )", values: nil)
+            } catch{
+                print(db!.lastErrorMessage())
+            }
+        }
+        
     }
 
     
