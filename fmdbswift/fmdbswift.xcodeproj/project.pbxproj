@@ -21,6 +21,7 @@
 		C2E764921DAE0BC00058C6AB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E7648C1DAE0BC00058C6AB /* FMResultSet.m */; };
 		C2E764931DAE0BC00058C6AB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2E7648D1DAE0BC00058C6AB /* Info.plist */; };
 		C2E764981DAE10240058C6AB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E764971DAE10240058C6AB /* libsqlite3.tbd */; };
+		C2E764A01DAE17630058C6AB /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7649E1DAE17630058C6AB /* FMDatabaseVariadic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		C2E7648D1DAE0BC00058C6AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E764951DAE0FDD0058C6AB /* fmdbswift-Brigding-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fmdbswift-Brigding-Header.h"; sourceTree = "<group>"; };
 		C2E764971DAE10240058C6AB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C2E7649E1DAE17630058C6AB /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDatabaseVariadic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				C2E764531DAE0A660058C6AB /* AppDelegate.swift */,
 				C2E764551DAE0A660058C6AB /* ViewController.swift */,
 				C2E764951DAE0FDD0058C6AB /* fmdbswift-Brigding-Header.h */,
+				C2E7649E1DAE17630058C6AB /* FMDatabaseVariadic.swift */,
 				C2E764571DAE0A660058C6AB /* Main.storyboard */,
 				C2E7645A1DAE0A660058C6AB /* Assets.xcassets */,
 				C2E7645C1DAE0A660058C6AB /* LaunchScreen.storyboard */,
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E7648E1DAE0BC00058C6AB /* FMDatabase.m in Sources */,
+				C2E764A01DAE17630058C6AB /* FMDatabaseVariadic.swift in Sources */,
 				C2E764561DAE0A660058C6AB /* ViewController.swift in Sources */,
 				C2E764921DAE0BC00058C6AB /* FMResultSet.m in Sources */,
 				C2E764901DAE0BC00058C6AB /* FMDatabasePool.m in Sources */,
