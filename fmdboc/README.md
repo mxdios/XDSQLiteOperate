@@ -28,7 +28,7 @@ _db = [FMDatabase databaseWithPath:dbPath];
 BOOL found =  [_db executeUpdate:@"create table if not exists userTable(id integer primary key autoincrement, name text, age integer, phone text)"];
 ```
 
-数据库操作除了查询，增删改都会调用这个方法`executeUpdate`，返回BOOL类型。`executeUpdate:`后面的字符串是SQLite语句，上述代码是创建了一个表，有姓名name，年龄age，手机号phone。
+数据库操作除了查询，增删改都会调用这个方法`executeUpdate`，返回BOOL类型。`executeUpdate:`后面的字符串是SQL语句，上述代码是创建了一个表，有姓名name，年龄age，手机号phone。
 
 关闭数据库
 
