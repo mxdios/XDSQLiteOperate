@@ -20,7 +20,9 @@ FMDatabaseQueue：解决线程不安全的类，避免每个线程创建一个�
 
 ## 猿题库的YTKKeyValueStore框架
 
-使用YTKKeyValueStore访问SQLite数据库OC
+YTKKeyValueStore是对FMDB的封装，支持key-value形式操作数据库。不需要直接使用SQL语句，更接近移动端开发的习惯。
+
+[使用YTKKeyValueStore访问SQLite数据库OC](https://github.com/mxdios/XDSQLiteOperate/tree/master/ytkkeyvalueoc)
 
 使用YTKKeyValueStore访问SQLite数据库Swift
 
