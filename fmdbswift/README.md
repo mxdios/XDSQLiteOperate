@@ -42,16 +42,38 @@ if db!.open() {
 
 ## 创建表
 
+```Swift
+db!.executeUpdate("create table if not exists userTable(id integer primary key autoincrement, name text, age integer, phone text)", values: nil)
+```
 
 ## 插入数据
 
+```Swift
+db!.executeUpdate(update, values: ["张三", "13", "13099999999"])
+```
 
 ## 删除数据
 
+```Swift
+db!.executeUpdate("delete from userTable where name = ?", values:["张三"])
+```
 
 ## 更新数据
 
+```Swift
+db!.executeUpdate("update userTable set name = ?  where name = '张三'", values:["张三丰"])
+```
 
 
 ## 查询数据
+
+```Swift
+let rs = try db!.executeQuery("select * from userTable", values: nil)
+while rs.next() {
+     let name = rs.string(forColumn: "name")
+     let age = rs.string(forColumn: "age")
+     let phone = rs.string(forColumn: "phone")
+     print("name = \(name), age = \(age), phone = \(phone)")
+}
+```
 
